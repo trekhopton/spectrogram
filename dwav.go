@@ -1,4 +1,4 @@
-package main
+package spectrogram
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 	"math"
 )
 
-func drawwav(img draw.Image, samples []float64) {
+func Drawwav(img draw.Image, samples []float64) {
 	bn := img.Bounds()
 
 	bg1 := ParseColor(*BG1)

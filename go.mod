@@ -1,4 +1,4 @@
-module github.com/xigh/spectrogram
+module github.com/trekhopton/spectrogram
 
 go 1.16
 

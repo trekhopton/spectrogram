@@ -1,4 +1,4 @@
-package main
+package spectrogram
 
 import (
 	"image/draw"
@@ -6,7 +6,7 @@ import (
 	"math/cmplx"
 )
 
-func drawfft(img draw.Image, samples []float64, rate, bins uint32) {
+func Drawfft(img draw.Image, samples []float64, rate, bins uint32) {
 	bn := img.Bounds()
 
 	gr := New()
